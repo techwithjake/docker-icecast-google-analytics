@@ -2,13 +2,13 @@
 
 This is a Docker build of the Icecast Google Analytics java app by "[iroks](https://coherent-receiver.com/google-analytics-and-icecast)", and is intended to be used in conjunction with an Icecast server or as part of a packaged "all in one" solution (such as my [Multi-container Libretime](https://github.com/ned-kelly/docker-multicontainer-libretime) setup).
 
-**If you require assistance deploying this solution for a commercial station, please feel free to reach out to me - I can provide consultancy services.**
+This is a fork of [ned-kelly's GitHub repository](https://github.com/ned-kelly/docker-icecast-google-analytics) for docker-icecast-google-analytics
 
 ---------------------------
 
-![Docker Build Status](https://img.shields.io/docker/build/bushrangers/docker-icecast-google-analytics.png) ![Docker Pulls](https://img.shields.io/docker/pulls/bushrangers/docker-icecast-google-analytics.png)
+![Docker Build Status](https://img.shields.io/docker/build/techwithjake/icecast-google-analytics.png) ![Docker Pulls](https://img.shields.io/docker/pulls/techwithjake/icecast-google-analytics.png)
 
-**Docker Hub:** [`bushrangers/docker-icecast-google-analytics`](https://hub.docker.com/r/bushrangers/docker-icecast-google-analytics/)
+**Docker Hub:** [`techwithjake/icecast-google-analytics`](https://hub.docker.com/r/techwithjake/icecast-google-analytics)
 
 ## Overview:
 
@@ -25,7 +25,7 @@ First, clone down the repo.
 
 ```bash
 
-git clone https://github.com/ned-kelly/docker-icecast-google-analytics.git
+git clone https://github.com/techwithjake/docker-icecast-google-analytics.git
 
 ```
 
@@ -53,6 +53,6 @@ docker logs -f icecast-analytics
 
 ### Screenshot Example:
 
-![GA Example](https://raw.githubusercontent.com/ned-kelly/docker-icecast-google-analytics/master/screenshots/ga.png "GA Example")
+![GA Example](https://raw.githubusercontent.com/techwithjake/docker-icecast-google-analytics/master/screenshots/ga.png "GA Example")
 
 _Fig 1: GA Realtime Dashboard Example._
