@@ -6,7 +6,7 @@ This is a fork of [ned-kelly's GitHub repository](https://github.com/ned-kelly/d
 
 ---------------------------
 
-![Docker Build Status](https://img.shields.io/docker/build/techwithjake/icecast-google-analytics.png) ![Docker Pulls](https://img.shields.io/docker/pulls/techwithjake/icecast-google-analytics.png)
+![Docker Build Status](https://img.shields.io/docker/cloud/build/techwithjake/icecast-google-analytics.png) ![Docker Pulls](https://img.shields.io/docker/pulls/techwithjake/icecast-google-analytics.png)
 
 **Docker Hub:** [`techwithjake/icecast-google-analytics`](https://hub.docker.com/r/techwithjake/icecast-google-analytics)
 
